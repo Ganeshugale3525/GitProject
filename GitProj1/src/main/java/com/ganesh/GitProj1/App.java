@@ -9,9 +9,9 @@ public class App {
 	}
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter First No1:");
+        System.out.println("Enter First :");
         int num1=sc.nextInt();
-        System.out.println("Enter Second No:");
+        System.out.println("Enter Second :");
         int num2=sc.nextInt();
         App app=new App();
         int sum = app.sum(num1, num2);
